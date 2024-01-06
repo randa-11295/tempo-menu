@@ -12,7 +12,7 @@ const categoriesComponent = (categoryEl) => `
   categoryEl?.categoryName || "drink"
 }</h3>
 ${categoryEl?.items?.map(
-  (itemEl) => `<div class="flex justify-between  py-1 text-sm		">
+  (itemEl) => `<div class="flex justify-between  py-1 text-sm">
     
         <p>${itemEl.itemName}</p>
 
