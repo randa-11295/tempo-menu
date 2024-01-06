@@ -3,151 +3,151 @@ const  data = [
     categoryName: "HOT COFFEE",
     items: [
       {
-        name: "ESPRESSO",
+        itemName: "ESPRESSO",
         sizes: [
-          { size: "S", price: "40" },
+          { sizeName: "S", price: "40" },
         ],
       },
       {
-        name: "TURKISH COFFEE",
+        itemName: "TURKISH COFFEE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "MACCHIATO",
+        itemName: "MACCHIATO",
         sizes: [
-          { size: "S", price: "45" },
-          { size: "L", price: "55" },
+          { sizeName: "S", price: "45" },
+          { sizeName: "L", price: "55" },
         ],
       },
       {
-        name: "AMERICANO",
+        itemName: "AMERICANO",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "LATTE",
+        itemName: "LATTE",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "CAPPUCCINO",
+        itemName: "CAPPUCCINO",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "MOCHA",
+        itemName: "MOCHA",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "WHITE MOCHA",
+        itemName: "WHITE MOCHA",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "FLAT WHITE",
+        itemName: "FLAT WHITE",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "CORTADO",
+        itemName: "CORTADO",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "AFFOGATO",
+        itemName: "AFFOGATO",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "MATCHA LATTE",
+        itemName: "MATCHA LATTE",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "PISTACHIO LATTE",
+        itemName: "PISTACHIO LATTE",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "SPANISH LATTE",
+        itemName: "SPANISH LATTE",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "SALTED CARAMEL LATTE",
+        itemName: "SALTED CARAMEL LATTE",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "CINNAMON CARAMEL LATTE",
+        itemName: "CINNAMON CARAMEL LATTE",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "CARAMEL MACCHIATO",
+        itemName: "CARAMEL MACCHIATO",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "SYMPHONY",
+        itemName: "SYMPHONY",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
       {
-        name: "AFFOGATO",
+        itemName: "AFFOGATO",
         sizes: [
-          { size: "S", price: "12" },
-          { size: "M", price: "60" },
-          { size: "L", price: "12" },
+          { sizeName: "S", price: "12" },
+          { sizeName: "M", price: "60" },
+          { sizeName: "L", price: "12" },
         ],
       },
     ],
@@ -157,38 +157,38 @@ const  data = [
     categoryName: "DRIP COFFEE",
     items: [
       {
-        name: "CHEMEX",
+        itemName: "CHEMEX",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "V60",
+        itemName: "V60",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "AEROPRESS",
+        itemName: "AEROPRESS",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "FRENCHPRESS",
+        itemName: "FRENCHPRESS",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "SYPHON",
+        itemName: "SYPHON",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
     ],
@@ -197,24 +197,24 @@ const  data = [
     categoryName: "COLD BREW",
     items: [
       {
-        name: "PLAIN",
+        itemName: "PLAIN",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "SPANISH",
+        itemName: "SPANISH",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "PISTACHIO",
+        itemName: "PISTACHIO",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
     ],
@@ -223,38 +223,38 @@ const  data = [
     categoryName: "COFFEE FRAPPE",
     items: [
       {
-        name: "COFFEE FRAPPE",
+        itemName: "COFFEE FRAPPE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "CARAMEL COFFEE FRAPPE",
+        itemName: "CARAMEL COFFEE FRAPPE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "MOCHA FRAPPE",
+        itemName: "MOCHA FRAPPE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "WHITE MOCHA FRAPPE",
+        itemName: "WHITE MOCHA FRAPPE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "TOFFEE CRUNCH FRAPPE",
+        itemName: "TOFFEE CRUNCH FRAPPE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
     ],
@@ -263,45 +263,45 @@ const  data = [
     categoryName: "FREDDO",
     items: [
       {
-        name: "ESPRESSO FREDDO",
+        itemName: "ESPRESSO FREDDO",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "LATTE FREDDO",
+        itemName: "LATTE FREDDO",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "CAPPUCCINO FREDDO",
+        itemName: "CAPPUCCINO FREDDO",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "SPANISH FREDDO",
+        itemName: "SPANISH FREDDO",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "LATTE FREDDO",
+        itemName: "LATTE FREDDO",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "TEMPO FREDDO",
+        itemName: "TEMPO FREDDO",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
     ],
@@ -310,45 +310,45 @@ const  data = [
     categoryName: "NON-COFFEE FRAPPE",
     items: [
       {
-        name: "CARAMEL FRAPPE",
+        itemName: "CARAMEL FRAPPE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "CHOCOLATE FRAPPE ",
+        itemName: "CHOCOLATE FRAPPE ",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "COTTON CANDY FRAPPE",
+        itemName: "COTTON CANDY FRAPPE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "BLUEBERRY FRAPPE",
+        itemName: "BLUEBERRY FRAPPE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "STRAWBERRY FRAPPE",
+        itemName: "STRAWBERRY FRAPPE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
       {
-        name: "ORIO FRAPPE",
+        itemName: "ORIO FRAPPE",
         sizes: [
-          { size: "S", price: "40" },
-          { size: "L", price: "50" },
+          { sizeName: "S", price: "40" },
+          { sizeName: "L", price: "50" },
         ],
       },
     ],
