@@ -31,7 +31,7 @@ ${categoryEl?.items?.map(
           (sizeEl) => ` 
             <figure class="pr-2">
                 <b  class="text-smoothGreen">${sizeEl?.sizeName}</b>
-                <span>20</span>
+                <span>${sizeEl?.price}</span>
             </figure>  `
         )}
             </aside>
