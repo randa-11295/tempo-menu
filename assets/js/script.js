@@ -12,17 +12,19 @@ const categoriesComponent = (categoryEl) => `
   categoryEl?.categoryName || "drink"
 }</h3>
 ${categoryEl?.items?.map(
-  (itemEl) => `<div class="flex justify-between  py-1	">
+  (itemEl) => `<div class="flex justify-between  py-1 text-sm		">
     
         <p>${itemEl.itemName}</p>
+
+        <aside class="flex">
         ${itemEl?.sizes?.map(
-          (sizeEl) => `  <aside class="flex 	">
+          (sizeEl) => ` 
             <figure class="pl-3">
-                <b>${sizeEl?.sizeName}</b>
-                <span class="text/-smoothGreen">20</span>
-            </figure>  
-        </aside>`
-        )}
+                <b  class="text-smoothGreen">${sizeEl?.sizeName}</b>
+                <span>20</span>
+            </figure>  `
+            )}
+            </aside>
     </div>`
 )}
 
