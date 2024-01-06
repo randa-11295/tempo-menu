@@ -18,11 +18,11 @@ const createElHandle = (element, className) => {
 // * custom components
 const categoriesComponent = (categoryEl) => `
 
-<h3  data-aos="zoom-in-up" data-aos-duration="3000" class="text-smoothGreen font-bold py-2 text-gl">${
+<h3  data-aos="zoom-in-up" data-aos-duration="3100" class="text-smoothGreen font-bold py-2 text-gl">${
   categoryEl?.categoryName || "drink"
 }</h3>
 ${categoryEl?.items?.map(
-  (itemEl) => `<div  data-aos="zoom-in-up" data-aos-duration="3000" class="flex justify-between  py-1 text-sm">
+  (itemEl) => `<div  data-aos="zoom-in-up" data-aos-duration="3100" class="flex justify-between  py-1 text-sm">
     
         <p>${itemEl.itemName}</p>
 
